@@ -173,8 +173,8 @@ void vendor_load_properties()
         sprintf(ds, "_ds");
     }
 
-    sprintf(description, "osprey_%s%s%s%s-user 6.0.1 MPI24.107-55 33 release-keys", customerid, ds, tv, gb);
-    sprintf(fingerprint, "motorola/osprey_%s%s%s%s/%s:6.0.1/MPI24.107-55/33:user/release-keys", customerid, ds, tv, gb, device);
+    sprintf(description, "osprey_retus-user 6.0 MPI24.65-25.1 1 release-keys");
+    sprintf(fingerprint, "motorola/osprey_retus/osprey_umts:6.0/MPI24.65-25.1/1:user/release-keys");
 
     property_override("ro.product.device", device);
     property_override("ro.build.product", device);
