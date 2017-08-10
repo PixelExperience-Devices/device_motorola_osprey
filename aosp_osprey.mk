@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 
+#Bootanimation res
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
