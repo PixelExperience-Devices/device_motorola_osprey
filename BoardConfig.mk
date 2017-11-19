@@ -27,6 +27,10 @@ TARGET_OTA_ASSERT_DEVICE := osprey,osprey_umts,osprey_u2,osprey_ud2,osprey_uds,o
 TARGET_INIT_VENDOR_LIB := libinit_osprey
 TARGET_RECOVERY_DEVICE_MODULES := libinit_osprey
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-7.2/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
 # Kernel
 TARGET_KERNEL_CONFIG := osprey_defconfig
 
