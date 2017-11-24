@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
 PRODUCT_NAME := aosp_osprey
