@@ -14,10 +14,9 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
-
 # Inherit common Android Go configurations
-#$(call inherit-product, build/target/product/go_defaults.mk)
- 
+#$(call inherit-product, build/target/product/go_defaults.mk) 
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
 PRODUCT_NAME := aosp_osprey
