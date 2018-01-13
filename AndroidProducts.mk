@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_osprey.mk
+    $(LOCAL_DIR)/aicp.mk
