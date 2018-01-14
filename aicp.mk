@@ -16,10 +16,10 @@
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 # Inherit common Android Go configurations
 #$(call inherit-product, build/target/product/go_defaults.mk) 
-
+export USE_CCACHE=1
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
-PRODUCT_NAME := aicp_osprey
+PRODUCT_NAME := aosp_osprey
 PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
