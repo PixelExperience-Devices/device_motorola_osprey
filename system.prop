@@ -9,4 +9,8 @@ ro.qc.sdk.audio.fluencetype=fluence
 debug.hwui.use_buffer_age=false
 ro.sf.lcd_density=280
 
+# Camera
+media.camera.ts.monotonic=1
+persist.camera.time.monotonic=1
+
 
