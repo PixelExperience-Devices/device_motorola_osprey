@@ -7,7 +7,7 @@
     "remote":      "github",
     "repository":  "ishubhamsingh/android_kernel_motorola_msm8916",
     "target_path": "kernel/motorola/msm8916",
-    "branch":      "hx-o"
+    "branch":      "8.1.x"
   },
   {
     "repository":  "proprietary_vendor_motorola",
