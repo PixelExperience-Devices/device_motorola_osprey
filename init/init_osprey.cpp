@@ -95,6 +95,17 @@ void vendor_load_properties()
         property_set("dalvik.vm.heapminfree", "2m");
         property_set("dalvik.vm.heapmaxfree", "8m");
         gb[0] = 0;
+
+         /*
+	 * Set Go Properties for 1GB ram devices
+	 * Properties taken from build/target/product/go_defaults_common.mk
+	 */
+
+	property_override("ro.config.low_ram", "true");
+	property_override("ro.lmk.critical_upgrade", "true");
+        property_override("ro.lmk.upgrade_pressure", "40");
+	property_override("pm.dexopt.downgrade_after_inactive_days", "10");
+        property_override("pm.dexopt.shared", "quicken");
     }
 
     property_set("ro.gsm.data_retry_config", "default_randomization=2000,max_retries=infinite,1000,1000,80000,125000,485000,905000");
