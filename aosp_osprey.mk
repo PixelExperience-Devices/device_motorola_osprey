@@ -18,8 +18,11 @@ $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 #Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Inherit common Android Go configurations
+#$(call inherit-product, build/target/product/go_defaults.mk)
+
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey

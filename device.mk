@@ -19,6 +19,7 @@ $(call inherit-product, device/motorola/msm8916-common/msm8916.mk)
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
+TARGET_DENSITY=xhdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -41,3 +42,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
+
+# Devive Arch
+TARGET_ARM=arm
+
+# Inherit common stuff
+    $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
