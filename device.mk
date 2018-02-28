@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # Devive Arch
-TARGET_ARM=arm
+TARGET_ARCH=arm
 
 # Inherit common stuff
     $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
