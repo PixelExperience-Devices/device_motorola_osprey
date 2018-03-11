@@ -48,3 +48,10 @@ TARGET_ARCH=arm
 
 # Inherit common stuff
     $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Sensors
+PRODUCT_PACKAGES += \
+    akmd09912 \
+    stml0xx \
+    sensors.msm8916 \
+    sensorhub.msm8916
