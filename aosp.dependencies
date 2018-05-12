@@ -4,31 +4,31 @@
     "target_path": "device/motorola/msm8916-common"
   },
   {
+    "repository":  "kernel_motorola_msm8916",
+    "target_path": "kernel/motorola/msm8916"
+  },
+  {
     "remote":      "github",
-    "repository":  "ishubhamsingh/android_kernel_motorola_msm8916",
-    "target_path": "kernel/motorola/msm8916",
+    "repository":  "Subinsmani/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
     "branch":      "8.1.x"
-  },
-  {
-    "repository":  "proprietary_vendor_motorola",
-    "target_path": "vendor/motorola"
-  },
-  {
-    "remote":      "github",
-    "repository":  "LineageOS/android_external_bson",
-    "target_path": "external/bson",
-    "branch":      "cm-14.1"
   },
   {
     "remote":      "github",
     "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch":      "lineage-15.0"
+    "branch":      "lineage-15.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "Subinsmani/prebuilts_gcc_linux-x86_arm_arm-eabi-7.2",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-7.2",
+    "branch":      "master"
   },
   {
     "remote":      "github",
     "repository":  "LineageOS/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
-    "branch":      "lineage-15.0"
+    "branch":      "lineage-15.1"
   }
 ]
