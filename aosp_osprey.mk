@@ -20,6 +20,8 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit common Android Go configurations
 #$(call inherit-product, build/target/product/go_defaults.mk)
+#IS_GO_VERSION := true
+#TARGET_MINIMAL_APPS := true
 
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
